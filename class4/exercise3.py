@@ -1,4 +1,4 @@
-uthor__ = 'eaboytes'
+__author__ = 'eaboytes'
 import pexpect
 from getpass import getpass
 import sys
@@ -14,14 +14,21 @@ username = 'pyclass'
 password = getpass()
 
 def main():
+    '''
+    logs into router and gets a brief list of the interfaces
+    ''' 
     ssh_conn = pexpect.spawn('ssh -l {} {} -p {}'.format(username, ip_addr, ssh_port))
     #ssh_conn.logfile = sys.stdout
     ssh_conn.timeout = 3
     ssh_conn.expect('ssword')
     ssh_conn.sendline(password)
     ssh_conn.expect(hostname + '#')
+    '''
+    Next line avoids pagination
+    '''
     ssh_conn.sendline('terminal length 0')
     ssh_conn.expect(hostname + '#')
+    
     ssh_conn.sendline('show ip int brief')
     ssh_conn.expect(hostname + '#')
     print ssh_conn.before
