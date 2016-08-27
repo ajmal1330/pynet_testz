@@ -15,9 +15,7 @@ username = 'pyclass'
 password = getpass()
 
 def login(ssh_conn):
-    '''
-    Handle sending password
-    '''
+    #Handle sending password
     password = getpass()
 
     ssh_conn.expect('ssword:')
@@ -26,6 +24,9 @@ def login(ssh_conn):
 
 
 def main():
+    '''
+    logs into router and changes amount of memory used for loging to 8197 bytes
+    '''
     ssh_conn = pexpect.spawn('ssh -l {} {} -p {}'.format(username, ip_addr,ssh_port))
     #ssh_conn.logfile = sys.stdout
     ssh_conn.timeout = 3
