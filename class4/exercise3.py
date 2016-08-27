@@ -10,8 +10,8 @@ ip_addr = '184.105.247.71'
 snmp_port = '161'
 ssh_port = '22'
 username = 'pyclass'
-password = '88newclass'
-#password = getpass()
+#password = '88newclass'
+password = getpass()
 
 def main():
     ssh_conn = pexpect.spawn('ssh -l {} {} -p {}'.format(username, ip_addr, ssh_port))
