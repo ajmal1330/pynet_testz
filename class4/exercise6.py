@@ -5,6 +5,7 @@ __author__ = 'eaboytes'
 from netmiko import ConnectHandler
 from getpass import getpass
 
+#password = getpass()
 '''
 Exercise instructions
 Use Netmiko to execute 'show arp' on pynet-rtr1, pynet-rtr2, and juniper-srx.
@@ -73,32 +74,26 @@ pynetsrx1 = {
     'device_type' : 'juniper',
     'ip' : '184.105.247.76',
     'port' : '22',
-#    'netconf_port' : '830',
     'username' : 'pyclass',
     'password' : '88newclass',
     'secret' : '',
 }
 
 
+cmd='show arp'
+
 def main():
     '''
     Logs into each router and collects the arp table
     '''
     print '=' *80
-    pynet_rtr1 = ConnectHandler(**pynet1)
-    pynet_rtr1.enable()
-    output = pynet_rtr1.send_command('show arp')
-    print '\nShow arp from pynet1\n' +output
-    print '=' *80
+    for device in (pynet1,pynet2,pynetsrx1):
+        ssh_conn = ConnectHandler(**device)
+        output = ssh_conn.send_command(cmd)
+        prompt = ssh_conn.find_prompt()
+        print '\nShow arp from ' + prompt +'\n' +output
+        print
+        print '=' *80
 
-    pynet_rtr2 = ConnectHandler(**pynet2)
-    pynet_rtr2.enable()
-    output = pynet_rtr2.send_command('show arp')
-    print '\nShow arp from pynet2\n' +output
-    print '=' *80
-
-    pynet_srx1 = ConnectHandler(**pynetsrx1)
-    output = pynet_srx1.send_command('show arp')
-    print '\nShow arp from SRX' +output
 if __name__=="__main__":
     main()
