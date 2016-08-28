@@ -91,7 +91,7 @@ def main():
         ssh_conn = ConnectHandler(**device)
         output = ssh_conn.send_command(cmd)
         prompt = ssh_conn.find_prompt()
-        print '\nShow arp from ' + prompt +'\n' +output
+        print '\n %s from %s \n %s' %(cmd, prompt, output)
         print
         print '=' *80
 
