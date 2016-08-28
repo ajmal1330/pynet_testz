@@ -84,19 +84,21 @@ def main():
     '''
     Logs into each router and collects the arp table
     '''
+    print '=' *80
     pynet_rtr1 = ConnectHandler(**pynet1)
     pynet_rtr1.enable()
     output = pynet_rtr1.send_command('show arp')
     print '\nShow arp from pynet1\n' +output
+    print '=' *80
 
     pynet_rtr2 = ConnectHandler(**pynet2)
     pynet_rtr2.enable()
     output = pynet_rtr2.send_command('show arp')
     print '\nShow arp from pynet2\n' +output
+    print '=' *80
 
     pynet_srx1 = ConnectHandler(**pynetsrx1)
     output = pynet_srx1.send_command('show arp')
-   
     print '\nShow arp from SRX' +output
 if __name__=="__main__":
     main()
