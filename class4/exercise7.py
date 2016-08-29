@@ -85,7 +85,7 @@ device = pynet2
 
 def main():
     '''
-    Logs into each router and collects the arp table
+    Logs into each router and executes commands cmd and ver 
     '''
     print '=' *80
     ssh_conn = ConnectHandler(**device)
