@@ -1,4 +1,5 @@
-uthor__ = 'eaboytes'
+#!/usr/bin/env python
+__author__ = 'eaboytes'
 
 
 from netmiko import ConnectHandler
