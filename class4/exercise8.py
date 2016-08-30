@@ -11,12 +11,12 @@ from getpass import getpass
  Use Netmiko to change the logging buffer size (logging buffered <size>) and to disable console logging (no logging console) from a file on both pynet-rtr1 and pynet-rtr2 
 '''
 
-#username = raw_input('Username:')
+username = raw_input('Username:')
 password = getpass()
 ver = 'sh run | inc logging buffered'
 for dvc_dict in (pynet1, pynet2):
     dvc_dict['password'] = password
-
+    dvc_dict['username'] = username
 def main():
     '''
     Logs into each router and executes commands from file config_file.txt. Verification of config change. 
