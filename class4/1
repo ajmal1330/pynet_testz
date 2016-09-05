@@ -1,4 +1,4 @@
-__author__ = 'eaboytes'
+uthor__ = 'eaboytes'
 
 #import necessary modules
 import paramiko
@@ -22,11 +22,12 @@ def main():
     remote_conn=remote_conn_pre.invoke_shell()
     output=remote_conn.recv(5000)
     print output
-    remote_conn.send("terminal length 0\n")
+    remote_conn.send("config t\n")
     time.sleep(1)
-    remote_conn.send("show version\n")
+    remote_conn.send("logging buffered 2048\n")
     time.sleep(1)
     output=remote_conn.recv(5000)
     print output
 if __name__=="__main__":
     main()
+~
