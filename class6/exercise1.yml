@@ -7,7 +7,7 @@
 
   tasks:
    - name: create VLANs
-     eos_vlan: name= {{ item.vlan_name }} vlanid={{ item.vlanid }}
+     eos_vlan: name={{ item.vlan_name }} vlanid={{ item.vlanid }}
            username={{ eapi_username }}
            password={{ eapi_password }}
            host={{ eapi_hostname }}
