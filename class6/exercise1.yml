@@ -6,13 +6,13 @@
   hosts: arista
 
   tasks:
-    - name: create Moe VLAN
-      eos_vlan: name=Moe vlanid=501
-            username={{ eapi_username }}
-            password={{ eapi_password }}
-            host={{ eapi_hostname }}
-            port={{ eapi_port }}
-            transport=https
+   - name: create Moe VLAN
+     eos_vlan: name=Moe vlanid=501
+           username={{ eapi_username }}
+           password={{ eapi_password }}
+           host={{ eapi_hostname }}
+           port={{ eapi_port }}
+           transport=https
 
     - name: create Moe VLAN
       eos_vlan: name=Larry vlanid=502
