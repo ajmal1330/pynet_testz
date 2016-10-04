@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1efa4dbf-92b6-4e86-9699-2a7ae59d386d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class6/exercise1.yml" afterPath="$PROJECT_DIR$/class6/exercise1.yml" />
     </list>
     <ignored path="pynet_testz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -288,6 +287,14 @@
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
     </task>
+    <task id="LOCAL-00001" summary="test class6">
+      <created>1475563076552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1475563076552</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -341,6 +348,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test class6" />
+    <option name="LAST_COMMIT_MESSAGE" value="test class6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
