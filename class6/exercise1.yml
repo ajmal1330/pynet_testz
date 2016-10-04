@@ -14,7 +14,7 @@
            port={{ eapi_port }}
            transport=https
 
-   - name: create Moe VLAN
+   - name: create Larry VLAN
      eos_vlan: name=Larry vlanid=502
             username={{ eapi_username }}
             password={{ eapi_password }}
@@ -22,7 +22,7 @@
             port={{ eapi_port }}
             transport=https
 
-   - name: create Moe VLAN
+   - name: create Curly VLAN
      eos_vlan: name=Curly vlanid=503
            username={{ eapi_username }}
            password={{ eapi_password }}
