@@ -5,7 +5,7 @@
 #trunk native VLAN:        VLAN1
 #trunk allowed VLANs:    <the three VLANs created in exercise1>
 
-- name: Create Arista VLANs
+- name: Create Arista trunks
   hosts: arista
 
   tasks:
