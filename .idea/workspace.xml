@@ -68,8 +68,8 @@
       <file leaf-file-name="exercise5.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class6/exercise5.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="165">
+              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -564,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475702590340</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="corrected hosts exercise5">
+      <created>1475703069045</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1475703069045</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -620,7 +627,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test class6" />
     <MESSAGE value="fix class 6" />
     <MESSAGE value="revert clas6" />
     <MESSAGE value="changed name on tasks" />
@@ -645,7 +651,8 @@
     <MESSAGE value="fixed names" />
     <MESSAGE value="upload exercise5" />
     <MESSAGE value="corrected indentation exercise5" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected indentation exercise5" />
+    <MESSAGE value="corrected hosts exercise5" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected hosts exercise5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -864,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class6/exercise5.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="165">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
           <folding />
         </state>
       </provider>
