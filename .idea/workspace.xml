@@ -36,8 +36,8 @@
       <file leaf-file-name="exercise2.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class6/exercise2.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="544">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -380,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475658301463</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="correcting ex2">
+      <created>1475658597114</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1475658597114</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -444,7 +451,8 @@
     <MESSAGE value="adjusting for vlan name" />
     <MESSAGE value="initial upload exercise2" />
     <MESSAGE value="uploading a test file" />
-    <option name="LAST_COMMIT_MESSAGE" value="uploading a test file" />
+    <MESSAGE value="correcting ex2" />
+    <option name="LAST_COMMIT_MESSAGE" value="correcting ex2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -584,8 +592,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class6/exercise2.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="544">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
