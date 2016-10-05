@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1efa4dbf-92b6-4e86-9699-2a7ae59d386d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class6/test.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class6/exercise2.yml" afterPath="$PROJECT_DIR$/class6/exercise2.yml" />
     </list>
     <ignored path="pynet_testz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercise2.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exercise2.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class6/exercise2.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+            <state relative-caret-position="408">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class6/test.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -63,6 +73,7 @@
         <option value="$PROJECT_DIR$/class6/exercise1.yml.py" />
         <option value="$PROJECT_DIR$/class6/exercise1.yml" />
         <option value="$PROJECT_DIR$/class6/exercise2.yml" />
+        <option value="$PROJECT_DIR$/class6/test.yml" />
       </list>
     </option>
   </component>
@@ -355,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475604019272</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="initial upload exercise2">
+      <created>1475656948685</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1475656948685</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -417,7 +435,8 @@
     <MESSAGE value="changed name on tasks" />
     <MESSAGE value="introduced loop to ex1" />
     <MESSAGE value="adjusting for vlan name" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusting for vlan name" />
+    <MESSAGE value="initial upload exercise2" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial upload exercise2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -549,8 +568,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class6/exercise2.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="408">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class6/test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding />
         </state>
       </provider>
