@@ -19,7 +19,7 @@
             transport=https
 
     - name: Set desciption on primary interface to in use
-      eos_interface: name=Ethenet3 description="*** IN USE ***"
+      eos_interface: name=Ethernet3 description="*** IN USE ***"
             username={{ eapi_username }}
             password={{ eapi_password }}
             host={{ eapi_hostname }}
