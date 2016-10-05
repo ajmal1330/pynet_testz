@@ -7,8 +7,8 @@
   gather_facts: False
 
   tasks:
-    - name: Cisco File Transfer
-      cisco_file_transfer:
+  - name: Cisco File Transfer
+    cisco_file_transfer:
         source_file="/home/eaboytes/ANSIBLE/cisco_file.txt
         dest_file=eaboytes1.txt
         overwrite=true
