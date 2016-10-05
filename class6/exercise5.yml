@@ -3,7 +3,7 @@
 #Use the cisco_file_transfer.py module to transfer a small file to the Cisco pynet-rtr1 router.
 
 - name: Copy file to Cisco router
-  hosts: cisco
+  hosts: pynet-rtr1
   gather_facts: False
 
   tasks:
