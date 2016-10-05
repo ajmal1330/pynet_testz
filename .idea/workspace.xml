@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1efa4dbf-92b6-4e86-9699-2a7ae59d386d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class6/done.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class6/exercise5.yml" afterPath="$PROJECT_DIR$/class6/exercise5.yml" />
     </list>
     <ignored path="pynet_testz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,11 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercise5.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exercise5.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class6/exercise5.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="done.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class6/done.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -100,12 +110,13 @@
         <option value="$PROJECT_DIR$/class6/exercise2.yml" />
         <option value="$PROJECT_DIR$/class6/exercise5.py" />
         <option value="$PROJECT_DIR$/class6/exercise5.yml" />
+        <option value="$PROJECT_DIR$/class6/done.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="501" />
-    <option name="y" value="193" />
+    <option name="x" value="558" />
+    <option name="y" value="88" />
     <option name="width" value="1238" />
     <option name="height" value="883" />
   </component>
@@ -571,11 +582,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475703069045</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="inserted missing quote ex5">
+      <created>1475703296254</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1475703296254</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="501" y="193" width="1238" height="883" extended-state="0" />
+    <frame x="558" y="88" width="1238" height="883" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23007396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -627,7 +645,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix class 6" />
     <MESSAGE value="revert clas6" />
     <MESSAGE value="changed name on tasks" />
     <MESSAGE value="introduced loop to ex1" />
@@ -652,7 +669,8 @@
     <MESSAGE value="upload exercise5" />
     <MESSAGE value="corrected indentation exercise5" />
     <MESSAGE value="corrected hosts exercise5" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected hosts exercise5" />
+    <MESSAGE value="inserted missing quote ex5" />
+    <option name="LAST_COMMIT_MESSAGE" value="inserted missing quote ex5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -873,6 +891,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class6/done.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
           <folding />
         </state>
       </provider>
