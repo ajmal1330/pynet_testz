@@ -4,7 +4,6 @@
 #interface description:     *** IN USE ***
 #switchport mode:          access
 #VLAN:                           <one of the VLANs created in exercise1>
-
 #Your 'primary Ethernet interface' is specified in your ~/ansible-hosts file.
 
 - name: Create Arista VLANs
@@ -18,8 +17,9 @@
             host={{ eapi_hostname }}
             port={{ eapi_port }}
             transport=https
+
     - name: Set desciption on primary interface to in use
-      eos_ethernet: name=Ethenet3 description="*** IN USE ***"
+      eos_interface: name=Ethenet3 description="*** IN USE ***"
             username={{ eapi_username }}
             password={{ eapi_password }}
             host={{ eapi_hostname }}
