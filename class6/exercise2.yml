@@ -10,16 +10,24 @@
 #If your primary interface is already 'IN USE' (by someone else), then use your
 #secondary interface (once again specified in ~/ansible-hosts).  You can determine
 #if an interface is already in use by SSH'ing into the switch. Reminder, do NOT use Ethernet1.
+#
 
 - name: Create Arista VLANs
   hosts: arista
 
   tasks:
-   - name: configure primary interface
-     eos_switchport: name=Ethernet1 mode=access access_vlan:501
-     eos_ethernet: description="*** IN USE ***"
+    - name: configure primary interface
+      eos_switchport: name=Ethernet3 mode=access access_vlan:501
            username={{ eapi_username }}
            password={{ eapi_password }}
            host={{ eapi_hostname }}
            port={{ eapi_port }}
            transport=https
+
+      eos_ethernet: name=Ethenet3 description="*** IN USE ***"
+           username={{ eapi_username }}
+           password={{ eapi_password }}
+           host={{ eapi_hostname }}
+           port={{ eapi_port }}
+           transport=https
+---
