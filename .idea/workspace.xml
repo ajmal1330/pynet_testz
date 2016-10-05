@@ -36,8 +36,8 @@
       <file leaf-file-name="exercise2.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class6/exercise2.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="459">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -408,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475659343422</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="corrected indentation">
+      <created>1475659477901</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1475659477901</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -476,7 +483,8 @@
     <MESSAGE value="deleting ending dashes in ex2" />
     <MESSAGE value="edited description in ex2" />
     <MESSAGE value="put second name in file" />
-    <option name="LAST_COMMIT_MESSAGE" value="put second name in file" />
+    <MESSAGE value="corrected indentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected indentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -616,8 +624,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class6/exercise2.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="459">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
