@@ -1,3 +1,4 @@
+---
 # Use Ansible to configure your 'primary Ethernet interface' as follows:
 #
 # interface description:    *** IN USE ***
