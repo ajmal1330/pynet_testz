@@ -36,8 +36,8 @@
       <file leaf-file-name="exercise2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class7/exercise2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+            <state relative-caret-position="464">
+              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
               <folding>
                 <element signature="e#943#956#0" expanded="true" />
               </folding>
@@ -308,13 +308,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00022" summary="upload of ex3">
-      <created>1475662332008</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1475662332008</updated>
     </task>
     <task id="LOCAL-00023" summary="upload of ex4">
       <created>1475695409044</created>
@@ -652,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477162285319</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="testing parser">
+      <created>1477162371823</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1477162371823</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -999,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class7/exercise2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        <state relative-caret-position="464">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
           <folding>
             <element signature="e#943#956#0" expanded="true" />
           </folding>

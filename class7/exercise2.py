@@ -48,9 +48,10 @@ def main():
 if __name__=='__main__':
     main()
 
-print (main.vlanid)
-print (main.remove)
-print (main.name)
+def outp(vlanid):
+    print (vlanid)
+    print (remove)
+    print (name)
 
 
 #cmd="show vlan" + " " + vlanid
