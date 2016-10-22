@@ -31,21 +31,27 @@ def main():
     parser = argparse.ArgumentParser(description='Add or remove vlan after checking for existence.')
     parser.add_argument('--name', help='supply a descriptive name for this vlan which should be different from the id')
     parser.add_argument('vlanid', help='VLAN number to create or remove', action='store', type=int)
-    parser.add_argument('--remove', help='Use this command to remove the vlan from the switch. Only the vlan id is needed')
+    parser.add_argument(
+        '--remove',
+        help='Use this command to remove the vlan from the switch. Only the vlan id is needed',
+        action='store_true'
+    )
     args=parser.parse_args()
 
 
     vlanid = args.vlanid
     remove = args.remove
-    vlan_name = args.name
+    name = args.name
+
+    print (vlanid)
+    print (remove)
+    print (name)
 
 if __name__=='__main__':
     main()
 
 
-print (vlanid)
-print (remove)
-print (name)
+
 
 #cmd="show vlan" + " " + vlanid
 # connect to switch and grab a "show vlan"
