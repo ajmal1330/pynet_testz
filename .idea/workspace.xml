@@ -26,8 +26,8 @@
       <file leaf-file-name="exercise1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class7/exercise1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="374">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding>
                 <element signature="e#257#270#0" expanded="true" />
               </folding>
@@ -557,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477114127628</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="fixed line 19">
+      <created>1477114254500</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1477114254500</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -613,7 +620,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="introduced loop to ex1" />
     <MESSAGE value="adjusting for vlan name" />
     <MESSAGE value="initial upload exercise2" />
     <MESSAGE value="uploading a test file" />
@@ -638,7 +644,8 @@
     <MESSAGE value="inserted missing quote ex5" />
     <MESSAGE value="initial upload ex1 class7" />
     <MESSAGE value="fixed ex1_c7" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed ex1_c7" />
+    <MESSAGE value="fixed line 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed line 19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -898,8 +905,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class7/exercise1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="374">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding>
             <element signature="e#257#270#0" expanded="true" />
           </folding>

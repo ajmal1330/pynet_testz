@@ -20,7 +20,8 @@ def main():
         int_counters = int_values.get('interfaceCounters', {})
         data[interface] = (int_counters.get('inOctets'), int_counters.get('out_Octets'))
 
+    print data
 
-    pprint(data)
+    #pprint(data)
 if __name__=='__main__':
     main()
