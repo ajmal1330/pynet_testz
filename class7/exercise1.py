@@ -30,7 +30,7 @@ def main():
 
     #prints output to a table
     for Eth, octets in data.items():
-        print "{:12} {:12>} {:12>}".format(Eth, octets[0], octets[1])
+        print "{:12} {:>12} {:>12}".format(Eth, octets[0], octets[1])
     print
 
 if __name__=='__main__':
