@@ -26,8 +26,8 @@
       <file leaf-file-name="exercise1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class7/exercise1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            <state relative-caret-position="408">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="e#257#270#0" expanded="true" />
               </folding>
@@ -564,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477114254500</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="formatting print function">
+      <created>1477114654294</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1477114654294</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -620,7 +627,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adjusting for vlan name" />
     <MESSAGE value="initial upload exercise2" />
     <MESSAGE value="uploading a test file" />
     <MESSAGE value="correcting ex2" />
@@ -645,7 +651,8 @@
     <MESSAGE value="initial upload ex1 class7" />
     <MESSAGE value="fixed ex1_c7" />
     <MESSAGE value="fixed line 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed line 19" />
+    <MESSAGE value="formatting print function" />
+    <option name="LAST_COMMIT_MESSAGE" value="formatting print function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -905,8 +912,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class7/exercise1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="408">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="e#257#270#0" expanded="true" />
           </folding>

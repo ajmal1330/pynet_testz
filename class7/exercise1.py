@@ -20,7 +20,10 @@ def main():
         int_counters = int_values.get('interfaceCounters', {})
         data[interface] = (int_counters.get('inOctets'), int_counters.get('out_Octets'))
 
-    print data
+    for Eth, octets in data.items():
+        print "{:10} {:10} {:10}".format(Eth, octets[0], octets[1])
+    print
+    #print data
 
     #pprint(data)
 if __name__=='__main__':
