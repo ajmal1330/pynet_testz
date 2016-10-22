@@ -16,7 +16,7 @@ def main():
     interfaces=show_interfaces['interfaces']
 
     data={}
-    for interface, int_values in interfaces:
+    for interface, int_values in interfaces.items():
         int_counters = int_values.get('interfaceCounters', {})
         data[interface] = (int_counters.get('inOctets'), int_counters.get('out_Octets'))
 
