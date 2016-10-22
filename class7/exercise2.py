@@ -25,12 +25,7 @@ In the lab environment, if you want to directly execute your script, then you wi
 import pyeapi
 import argparse
 
-def check_for_vlan(vlanid):
-    vlanid = str(args.vlanid)
-#cmd="show vlan" + " " + vlanid
-# connect to switch and grab a "show vlan"
-#pynet_sw2 = pyeapi.connect_to('pynet-sw2')
-#sw_resp = pynet_sw2.enable(cmd)
+
 
 def main():
     parser = argparse.ArgumentParser(description='Add or remove vlan after checking for existence.')
@@ -46,4 +41,11 @@ def main():
 if __name__=='__main__':
     main()
 
-print vlanid
+
+cmd="show vlan" + " " + args.vlanid
+# connect to switch and grab a "show vlan"
+pynet_sw2 = pyeapi.connect_to('pynet-sw2')
+sw_resp = pynet_sw2.enable(cmd)
+
+print sw_resp
+
