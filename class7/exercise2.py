@@ -43,14 +43,14 @@ def main():
     remove = args.remove
     name = args.name
 
-    print (vlanid)
-    print (remove)
-    print (name)
+
 
 if __name__=='__main__':
     main()
 
-
+print (main.vlanid)
+print (main.remove)
+print (main.name)
 
 
 #cmd="show vlan" + " " + vlanid
