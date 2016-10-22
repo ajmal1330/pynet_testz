@@ -25,11 +25,13 @@ In the lab environment, if you want to directly execute your script, then you wi
 import pyeapi
 import argparse
 
+cmd="show vlan"+" vlanid"
 # connect to switch and grab a "show vlan"
 pynet_sw2 = pyeapi.connect_to('pynet-sw2')
 sw_resp = pynet_sw2.enable(cmd)
 
 parser = argparse.ArgumentParser(description='Add or remove vlan after checking for existence.')
 parser.add_argument('--name', help='supply a descriptive name for this vlan which should be different from the id')
+parser.add_argument("vlanid", help="VLAN number to create or remove", action="store", type=int)
 parser.add_argument('--remove', help='Use this command to remove the vlan from the switch. Only the vlan id is needed')
 args=parser.parse_args()

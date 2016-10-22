@@ -36,8 +36,8 @@
       <file leaf-file-name="exercise2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class7/exercise2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="492">
+              <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
               <folding>
                 <element signature="e#943#956#0" expanded="true" />
               </folding>
@@ -308,13 +308,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00006" summary="introduced loop to ex1">
-      <created>1475568296690</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1475568296690</updated>
     </task>
     <task id="LOCAL-00007" summary="adjusting for vlan name">
       <created>1475569261392</created>
@@ -652,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477121099159</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="initial upload of ex2 class 7.">
+      <created>1477122329456</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1477122329456</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -708,7 +708,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="deleting ending dashes in ex2" />
     <MESSAGE value="edited description in ex2" />
     <MESSAGE value="put second name in file" />
     <MESSAGE value="corrected indentation" />
@@ -733,7 +732,8 @@
     <MESSAGE value="fixing outoctets" />
     <MESSAGE value="formatting columns" />
     <MESSAGE value="finalizing assignment 1 in class 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalizing assignment 1 in class 7" />
+    <MESSAGE value="initial upload of ex2 class 7." />
+    <option name="LAST_COMMIT_MESSAGE" value="initial upload of ex2 class 7." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -999,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class7/exercise2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="492">
+          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
           <folding>
             <element signature="e#943#956#0" expanded="true" />
           </folding>
