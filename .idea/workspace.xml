@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1efa4dbf-92b6-4e86-9699-2a7ae59d386d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class7/exercise2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class7/exercise1.py" afterPath="$PROJECT_DIR$/class7/exercise1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class7/exercise2.py" afterPath="$PROJECT_DIR$/class7/exercise2.py" />
     </list>
     <ignored path="pynet_testz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="exercise1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exercise1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class7/exercise1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="62">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercise2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="exercise2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class7/exercise2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="475">
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
               <folding>
                 <element signature="e#943#956#0" expanded="true" />
               </folding>
@@ -72,8 +71,8 @@
         <option value="$PROJECT_DIR$/class6/exercise5.py" />
         <option value="$PROJECT_DIR$/class6/exercise5.yml" />
         <option value="$PROJECT_DIR$/class6/done.txt" />
-        <option value="$PROJECT_DIR$/class7/exercise2.py" />
         <option value="$PROJECT_DIR$/class7/exercise1.py" />
+        <option value="$PROJECT_DIR$/class7/exercise2.py" />
       </list>
     </option>
   </component>
@@ -309,13 +308,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00005" summary="changed name on tasks">
-      <created>1475567529836</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1475567529836</updated>
     </task>
     <task id="LOCAL-00006" summary="introduced loop to ex1">
       <created>1475568296690</created>
@@ -653,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477117768875</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="finalizing assignment 1 in class 7">
+      <created>1477121099159</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1477121099159</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -990,21 +989,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class7/exercise2.py">
+    <entry file="file://$PROJECT_DIR$/class7/exercise1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#943#956#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="62">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class7/exercise1.py">
+    <entry file="file://$PROJECT_DIR$/class7/exercise2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="475">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="e#943#956#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
