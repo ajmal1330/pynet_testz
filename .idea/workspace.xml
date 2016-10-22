@@ -309,13 +309,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
     </task>
-    <task id="LOCAL-00017" summary="corrected indentation on second name">
-      <created>1475659864344</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1475659864344</updated>
-    </task>
     <task id="LOCAL-00018" summary="corrected ethernet3 misspelling">
       <created>1475660146629</created>
       <option name="number" value="00018" />
@@ -652,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477161081058</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="testing parser">
+      <created>1477161523209</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1477161523209</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="ToolWindowManager">

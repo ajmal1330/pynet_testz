@@ -35,14 +35,17 @@ def main():
     args=parser.parse_args()
 
 
+    vlan_id = args.vlan_id
+    remove = args.remove
+    vlan_name = args.name
 
 if __name__=='__main__':
     main()
 
 
-print (args.vlanid)
-print (args.remove)
-print (args.name)
+print (vlanid)
+print (remove)
+print (name)
 
 #cmd="show vlan" + " " + vlanid
 # connect to switch and grab a "show vlan"
