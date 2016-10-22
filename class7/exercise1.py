@@ -26,7 +26,7 @@ def main():
         data[interface] = (int_counters.get('inOctets'), int_counters.get('outOctets'))
 
     #prints header to table of output
-    print "\n{:12}{:12>}{:12>}".format("Interface", "In", "Out")
+    print "\n{:12}{:>12}{:>12}".format("Interface", "In", "Out")
 
     #prints output to a table
     for Eth, octets in data.items():
