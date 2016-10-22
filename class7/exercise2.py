@@ -25,7 +25,7 @@ In the lab environment, if you want to directly execute your script, then you wi
 import pyeapi
 import argparse
 
-cmd="show vlan"+" vlanid"
+cmd="show vlan" + " " + vlanid
 # connect to switch and grab a "show vlan"
 pynet_sw2 = pyeapi.connect_to('pynet-sw2')
 sw_resp = pynet_sw2.enable(cmd)
