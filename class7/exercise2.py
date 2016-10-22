@@ -53,7 +53,7 @@ def outp(vlanid, remove, name=None):
     print (remove)
     print (name)
 
-print
+print (outp())
 
 #cmd="show vlan" + " " + vlanid
 # connect to switch and grab a "show vlan"
