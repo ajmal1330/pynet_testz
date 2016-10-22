@@ -35,7 +35,7 @@ def main():
     args=parser.parse_args()
 
 
-    vlan_id = args.vlanid
+    vlanid = args.vlanid
     remove = args.remove
     vlan_name = args.name
 
