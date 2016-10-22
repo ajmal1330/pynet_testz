@@ -17,8 +17,8 @@ def main():
     sh_int=pynet_sw2.enable('show interfaces')
 
     #strip off some of the extraneous data to get at what we want
-    some_dict=sh_int[0]
-    show_interfaces=some_dict['result']
+    cmd_outp=sh_int[0]
+    show_interfaces=cmd_outp['result']
     interfaces=show_interfaces['interfaces']
     data={}
     for interface, int_values in interfaces.items():
