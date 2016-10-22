@@ -27,7 +27,7 @@ def main():
 
     #prints header to table of output
     print "\n{:12}{:>12}{:>12}".format("Interface", "In", "Out")
-    print "\n{0:12}{0:>12}{0:>12}".format("------------")
+    print "\n{0:12}{0:>12}{0:>12}".format("-----------")
 
     #prints output to a table
     for Eth, octets in data.items():
