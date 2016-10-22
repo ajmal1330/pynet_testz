@@ -13,5 +13,6 @@ def main():
     some_dict=sh_int[0]
     show_interfaces=some_dict['result']
     pprint(show_interfaces)
+    interfaces=show_interfaces['interfaces']
 if __name__=='__main__':
     main()
