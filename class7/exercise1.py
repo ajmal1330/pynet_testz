@@ -8,11 +8,10 @@ import pyeapi
 from pprint import pprint
 
 def main():
-pynet_sw2 = pyeapi.connect_to('pynet-sw2')
-sh_int=pynet_sw2.enable('show interfaces')
-some_dict=sh_int[0]
-show_interfaces=some_dict['interfaces']
-pprint(interfaces)
-
+    pynet_sw2 = pyeapi.connect_to('pynet-sw2')
+    sh_int=pynet_sw2.enable('show interfaces')
+    some_dict=sh_int[0]
+    show_interfaces=some_dict['interfaces']
+    pprint(interfaces)
 if __name__=='__main__':
     main()
