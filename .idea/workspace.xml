@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/class7/exercise1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
               <folding>
                 <element signature="e#257#270#0" expanded="true" />
               </folding>
@@ -599,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477115379943</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="formatting columns">
+      <created>1477115579693</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1477115579693</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -655,7 +662,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="uploading a test file" />
     <MESSAGE value="correcting ex2" />
     <MESSAGE value="deleting ending dashes in ex2" />
     <MESSAGE value="edited description in ex2" />
@@ -680,7 +686,8 @@
     <MESSAGE value="fixed line 19" />
     <MESSAGE value="formatting print function" />
     <MESSAGE value="fixing outoctets" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing outoctets" />
+    <MESSAGE value="formatting columns" />
+    <option name="LAST_COMMIT_MESSAGE" value="formatting columns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -941,7 +948,7 @@
     <entry file="file://$PROJECT_DIR$/class7/exercise1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
             <element signature="e#257#270#0" expanded="true" />
           </folding>
