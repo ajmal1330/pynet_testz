@@ -42,6 +42,8 @@ def main():
     print (args.vlanid)
     print (args.remove)
     print (args.name)
-    print vlanid
+
 if __name__=='__main__':
     main()
+
+ print vlanid
