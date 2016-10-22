@@ -12,7 +12,8 @@ def main():
     sh_int=pynet_sw2.enable('show interfaces')
     some_dict=sh_int[0]
     show_interfaces=some_dict['result']
-    pprint(show_interfaces)
+
     interfaces=show_interfaces['interfaces']
+    pprint(interfaces)
 if __name__=='__main__':
     main()
