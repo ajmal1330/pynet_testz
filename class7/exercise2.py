@@ -48,7 +48,7 @@ def main():
 if __name__=='__main__':
     main()
 
-def outp(vlanid):
+def outp(vlanid, remove, name=None):
     print (vlanid)
     print (remove)
     print (name)
