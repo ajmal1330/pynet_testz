@@ -34,6 +34,7 @@ def main():
     parser.add_argument('--remove', help='Use this command to remove the vlan from the switch. Only the vlan id is needed')
     args=parser.parse_args()
 
+    vlanid=(args.vlanid)
     print (args.vlanid)
     print (args.remove)
     print (args.name)
@@ -42,7 +43,7 @@ if __name__=='__main__':
     main()
 
 
-cmd="show vlan" + " " + args.vlanid
+cmd="show vlan" + " " + vlanid
 # connect to switch and grab a "show vlan"
 pynet_sw2 = pyeapi.connect_to('pynet-sw2')
 sw_resp = pynet_sw2.enable(cmd)
