@@ -37,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/class7/exercise2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
               <folding>
                 <element signature="e#943#956#0" expanded="true" />
               </folding>
@@ -308,13 +308,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00010" summary="uploading a test file">
-      <created>1475658301463</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1475658301463</updated>
     </task>
     <task id="LOCAL-00011" summary="correcting ex2">
       <created>1475658597114</created>
@@ -652,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477122899833</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="testing parser">
+      <created>1477159344558</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1477159344558</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -708,7 +708,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edited description in ex2" />
     <MESSAGE value="put second name in file" />
     <MESSAGE value="corrected indentation" />
     <MESSAGE value="corrected indentation on second name" />
@@ -733,7 +732,8 @@
     <MESSAGE value="formatting columns" />
     <MESSAGE value="finalizing assignment 1 in class 7" />
     <MESSAGE value="initial upload of ex2 class 7." />
-    <option name="LAST_COMMIT_MESSAGE" value="initial upload of ex2 class 7." />
+    <MESSAGE value="testing parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing parser" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1000,7 +1000,7 @@
     <entry file="file://$PROJECT_DIR$/class7/exercise2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
           <folding>
             <element signature="e#943#956#0" expanded="true" />
           </folding>
