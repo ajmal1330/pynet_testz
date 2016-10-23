@@ -28,12 +28,10 @@ host: 184.105.247.73
 transport: https
 '''
 
+#import statements
 import pyeapi
 import argparse
-
-#def pyeapi_result(output):
-#    Return the 'result' value from the pyeapi output
-#    return output[0]['result']
+#End Import
 
 def check_vlan(vlanid):
     '''
@@ -78,7 +76,9 @@ def main():
     #verify existence of vlan in switch
     vlan_exists=check_vlan(vlanid)
 
-
+    '''Actions are below. If the action is to remove a vlan, the switch is checked to see if it is configured.
+    if not, the vlan is removed.
+    '''
     if remove:
        if vlan_exists:
            cmd='no vlan {}'.format(vlanid)
@@ -87,7 +87,7 @@ def main():
            print 'VLAN {} removed'.format(vlanid)
        else:
            print 'Nothing to do here! VLAN {} does not exist on switch'.format(vlanid)
-#if action is to add a vlan, first check to see if it exists
+    #if action is not to remove but add a vlan, first check to see if it exists
     else:
         if vlan_exists:
             if name is not None and vlan_exists != name:
@@ -106,10 +106,6 @@ def main():
             pynet_sw2 = pyeapi.connect_to('pynet-sw2')
             pynet_sw2.config(cmd)
             print 'Vlan NOT found on switch Adding Vlan.'
-
-
-
-
 if __name__=='__main__':
     main()
 
