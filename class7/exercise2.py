@@ -43,17 +43,10 @@ def main():
     remove = args.remove
     name = args.name
 
-
-
-if __name__=='__main__':
-    main()
-
-def outp(vlanid, remove, name=None):
     print (vlanid)
     print (remove)
     print (name)
 
-print (outp(vlanid, remove, name))
 
 #cmd="show vlan" + " " + vlanid
 # connect to switch and grab a "show vlan"
@@ -61,4 +54,6 @@ print (outp(vlanid, remove, name))
 #sw_resp = pynet_sw2.enable(cmd)
 
 #print sw_resp
+if __name__=='__main__':
+    main()
 
