@@ -20,12 +20,44 @@ to accomplish the argument processing.
 
 In the lab environment, if you want to directly execute your script, then you will need to use
 '#!/usr/bin/env python' at the top of the script (instead of '!#/usr/bin/python').
+
+--Switch information
+username: eapi
+password: 7maxwell7
+host: 184.105.247.73
+transport: https
 '''
 
 import pyeapi
 import argparse
 
+#def pyeapi_result(output):
+#    Return the 'result' value from the pyeapi output
+#    return output[0]['result']
 
+def check_vlan(vlanid):
+    '''
+    Check switch for vlan given in CLI. If vlan is configured on the switch, the name will be returned
+    If the vlan is not configured in the switch, a value of fals will be returned
+    '''
+    vlanid=str(vlanid)
+    cmd='show vlan {}'.format(vlanid)
+
+    '''
+    Error handling in this function since executing a "show vlan" command using a vlan that does not exist in the
+    switch will return an error.  We need a way of continuing to run the function even though an error is given.
+    The pyeapi.eaplib.CommandError is raised when the vlan does not exist. Keyerror is a built-in python error and is
+    raised when a mapping (dictionary) key is not found in the set of existing keys.
+    '''
+    try:
+        pynet_sw2 = pyeapi.connect_to('pynet-sw2')
+        sw_resp = pynet_sw2.enable(cmd)
+        find_vlan = sw_resp[0]['result']['vlans']
+        return find_vlan[vlanid]['name']
+    except (pyeapi.eapilib.CommandError, KeyError):
+        pass
+    return False
+#END check_vlan function
 
 def main():
     parser = argparse.ArgumentParser(description='Add or remove vlan after checking for existence.')
@@ -43,17 +75,24 @@ def main():
     remove = args.remove
     name = args.name
 
-    print (vlanid)
-    print (remove)
-    print (name)
+    #verify existence of vlan in switch
+    vlan_exists=check_vlan(vlanid)
 
 
-#cmd="show vlan" + " " + vlanid
-# connect to switch and grab a "show vlan"
-#pynet_sw2 = pyeapi.connect_to('pynet-sw2')
-#sw_resp = pynet_sw2.enable(cmd)
+    if remove:
+       if vlan_exists:
+           cmd='no vlan {}'.format(vlanid)
+           pynet_sw2 = pyeapi.connect_to('pynet-sw2')
+           sw_action = pynet_sw2.config(cmd)
+           remove vlan
+       else:
+           print "Nothing to do here. Vlan does not exist on switch"
+#if action is to add a vlan, first check to see if it exists
+    else:
+        if vlan_exists:
 
-#print sw_resp
+
+
 if __name__=='__main__':
     main()
 
