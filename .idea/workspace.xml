@@ -36,8 +36,8 @@
       <file leaf-file-name="exercise2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class7/exercise2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="804">
-              <caret line="107" column="55" selection-start-line="107" selection-start-column="55" selection-end-line="107" selection-end-column="55" />
+            <state relative-caret-position="600">
+              <caret line="95" column="47" selection-start-line="95" selection-start-column="47" selection-end-line="95" selection-end-column="47" />
               <folding>
                 <element signature="e#1038#1051#0" expanded="true" />
               </folding>
@@ -308,13 +308,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00030" summary="inserted missing quote ex5">
-      <created>1475703296254</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1475703296254</updated>
     </task>
     <task id="LOCAL-00031" summary="initial upload ex1 class7">
       <created>1477109314042</created>
@@ -652,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477260208659</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="first run with ex2 c7">
+      <created>1477262518519</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1477262518519</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -708,7 +708,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="corrected indentation on second name" />
     <MESSAGE value="corrected ethernet3 misspelling" />
     <MESSAGE value="test same as ex2" />
     <MESSAGE value="had a colon in switchport command." />
@@ -733,7 +732,8 @@
     <MESSAGE value="testing parser" />
     <MESSAGE value="remove seccond function" />
     <MESSAGE value="backing up ex2" />
-    <option name="LAST_COMMIT_MESSAGE" value="backing up ex2" />
+    <MESSAGE value="first run with ex2 c7" />
+    <option name="LAST_COMMIT_MESSAGE" value="first run with ex2 c7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1019,8 +1019,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class7/exercise2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="804">
-          <caret line="107" column="55" selection-start-line="107" selection-start-column="55" selection-end-line="107" selection-end-column="55" />
+        <state relative-caret-position="600">
+          <caret line="95" column="47" selection-start-line="95" selection-start-column="47" selection-end-line="95" selection-end-column="47" />
           <folding>
             <element signature="e#1038#1051#0" expanded="true" />
           </folding>

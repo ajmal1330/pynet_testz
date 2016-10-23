@@ -89,8 +89,8 @@ def main():
            print 'Nothing to do here! VLAN {} does not exist on switch'.format(vlanid)
 #if action is to add a vlan, first check to see if it exists
     else:
-        if find_vlan:
-            if name is not None and find_vlan != name:
+        if vlan_exists:
+            if name is not None and vlan_exists != name:
                 cmd=[]
                 cmd1 = cmd.append('vlan {}'.format(vlanid))
                 cmd2 = cmd.append('name {}'.format(name))
