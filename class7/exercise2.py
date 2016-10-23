@@ -80,7 +80,7 @@ def main():
 
 
     if remove:
-       if find_vlan:
+       if vlan_exists:
            cmd='no vlan {}'.format(vlanid)
            pynet_sw2 = pyeapi.connect_to('pynet-sw2')
            pynet_sw2.config(cmd)
