@@ -80,16 +80,33 @@ def main():
 
 
     if remove:
-       if vlan_exists:
+       if find_vlan:
            cmd='no vlan {}'.format(vlanid)
            pynet_sw2 = pyeapi.connect_to('pynet-sw2')
-           sw_action = pynet_sw2.config(cmd)
-           remove vlan
+           pynet_sw2.config(cmd)
+           print 'VLAN {} removed'.format(vlanid)
        else:
-           print "Nothing to do here. Vlan does not exist on switch"
+           print 'Nothing to do here! VLAN {} does not exist on switch'.format(vlanid)
 #if action is to add a vlan, first check to see if it exists
     else:
-        if vlan_exists:
+        if find_vlan:
+            if name is not None and find_vlan != name:
+                cmd=[]
+                cmd1 = cmd.append('vlan {}'.format(vlanid))
+                cmd2 = cmd.append('name {}'.format(name))
+                pynet_sw2 = pyeapi.connect_to('pynet-sw2')
+                pynet_sw2.config(cmd)
+                print 'Vlan found on switch but without a name. Name added to vlan.'
+            else:
+                print 'Vlan found on switch with name. Nothing to do here'
+        else:
+            cmd = []
+            cmd1 = cmd.append('vlan {}'.format(vlanid))
+            cmd2 = cmd.append('name {}'.format(name))
+            pynet_sw2 = pyeapi.connect_to('pynet-sw2')
+            pynet_sw2.config(cmd)
+            print 'Vlan NOT found on switch Adding Vlan.'
+
 
 
 
