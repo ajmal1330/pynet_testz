@@ -36,8 +36,8 @@
       <file leaf-file-name="exercise3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class8/exercise3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="340">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -311,13 +311,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00037" summary="fixed ex1_c7">
-      <created>1477114127628</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1477114127628</updated>
     </task>
     <task id="LOCAL-00038" summary="fixed line 19">
       <created>1477114254500</created>
@@ -655,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478979937947</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="correction ex3&#10;">
+      <created>1478980137978</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1478980137979</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -711,7 +711,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed allowed vlans" />
     <MESSAGE value="fixed allowed vlans colon to equal sign" />
     <MESSAGE value="fixed names" />
     <MESSAGE value="upload exercise5" />
@@ -736,7 +735,8 @@
     <MESSAGE value="done" />
     <MESSAGE value="week 8 exercises initial upload" />
     <MESSAGE value="ex3 for class 8&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex3 for class 8&#10;" />
+    <MESSAGE value="correction ex3&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction ex3&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1100,8 +1100,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/exercise3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="340">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>

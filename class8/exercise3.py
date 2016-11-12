@@ -18,6 +18,6 @@ def main():
         ip_address='2.2.2.2',
         port=22,
     )
-    pynet_tst2.save()
+    print pynet_tst2
 if __name__ == "__main__":
     main()
