@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1efa4dbf-92b6-4e86-9699-2a7ae59d386d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class8/exercise5.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class8/exercise5.py" afterPath="$PROJECT_DIR$/class8/exercise5.py" />
     </list>
     <ignored path="pynet_testz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="exercise5.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class8/exercise5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding>
                 <element signature="e#23#57#0" expanded="true" />
               </folding>
@@ -378,13 +378,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
     </task>
-    <task id="LOCAL-00043" summary="fixing outoctets">
-      <created>1477115379943</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1477115379943</updated>
-    </task>
     <task id="LOCAL-00044" summary="formatting columns">
       <created>1477115579693</created>
       <option name="number" value="00044" />
@@ -721,7 +714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478983106323</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="initial upload of ex5">
+      <created>1478992125445</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1478992125445</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -777,7 +777,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="corrected indentation exercise5" />
     <MESSAGE value="corrected hosts exercise5" />
     <MESSAGE value="inserted missing quote ex5" />
     <MESSAGE value="initial upload ex1 class7" />
@@ -802,7 +801,8 @@
     <MESSAGE value="exercise4 upload" />
     <MESSAGE value="correction ex4" />
     <MESSAGE value="final ex4" />
-    <option name="LAST_COMMIT_MESSAGE" value="final ex4" />
+    <MESSAGE value="initial upload of ex5" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial upload of ex5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1173,8 +1173,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/exercise5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
             <element signature="e#23#57#0" expanded="true" />
           </folding>

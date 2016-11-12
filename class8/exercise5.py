@@ -5,7 +5,7 @@ from datetime import datetime
 from net_system.models import NetworkDevice, Credentials
 import django
 
-def show_ver(a_device)
+def show_ver(a_device):
     creds = a_device.credentials
     remote_conn = ConnectHandler(device_type=a_device.device_type, ip=a_device.ip, password=a_device.password,
                                  username=a_device.username, port=a_device.port, secret='')
