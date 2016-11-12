@@ -12,7 +12,7 @@ def main():
     )
     pynet_tst1.save()
 
-    pynet_rtr2 = NetworkDevice.objects.get_or_create(
+    pynet_tst2 = NetworkDevice.objects.get_or_create(
         device_name='pynet-tst2',
         device_type='cisco_ios',
         ip_address='2.2.2.2',
