@@ -36,8 +36,8 @@
       <file leaf-file-name="exercise5.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class8/exercise5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="153">
+              <caret line="9" column="105" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
               <folding>
                 <element signature="e#23#57#0" expanded="true" />
               </folding>
@@ -378,13 +378,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
     </task>
-    <task id="LOCAL-00044" summary="formatting columns">
-      <created>1477115579693</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1477115579693</updated>
-    </task>
     <task id="LOCAL-00045" summary="formatting columns">
       <created>1477115737811</created>
       <option name="number" value="00045" />
@@ -721,7 +714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478992125445</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="correct ex5 missing colon">
+      <created>1478992185764</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1478992185764</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -777,7 +777,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="corrected hosts exercise5" />
     <MESSAGE value="inserted missing quote ex5" />
     <MESSAGE value="initial upload ex1 class7" />
     <MESSAGE value="fixed ex1_c7" />
@@ -802,7 +801,8 @@
     <MESSAGE value="correction ex4" />
     <MESSAGE value="final ex4" />
     <MESSAGE value="initial upload of ex5" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial upload of ex5" />
+    <MESSAGE value="correct ex5 missing colon" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct ex5 missing colon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1173,8 +1173,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/exercise5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="153">
+          <caret line="9" column="105" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
           <folding>
             <element signature="e#23#57#0" expanded="true" />
           </folding>
