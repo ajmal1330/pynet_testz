@@ -11,7 +11,7 @@ def show_ver(a_device):
                                  username=creds.username, port=a_device.port, secret='')
     print a_device
     print '#' * 80
-    print remote_conn.send_command("show ver")
+    print remote_conn.send_command_expect("show ver")
     print '#' * 80
 
 def main():
@@ -28,5 +28,6 @@ def main():
     #provides the difference between starting time above and end time.  In other words, how long did this take.
     elapsed_time = datetime.now() - start_time
     print "Elapsed time: {}".format(elapsed_time)
+
 if __name__ == "__main__":
     main()
