@@ -36,8 +36,8 @@
       <file leaf-file-name="exercise3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class8/exercise3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="68">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="18" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -48,8 +48,8 @@
       <file leaf-file-name="exercise4.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class8/exercise4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="238">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -324,13 +324,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00040" summary="formatting print function">
-      <created>1477115033256</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1477115033256</updated>
     </task>
     <task id="LOCAL-00041" summary="formatting print function">
       <created>1477115173015</created>
@@ -668,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478981311901</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="correction ex4">
+      <created>1478981473990</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1478981473990</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -724,7 +724,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed names" />
     <MESSAGE value="upload exercise5" />
     <MESSAGE value="corrected indentation exercise5" />
     <MESSAGE value="corrected hosts exercise5" />
@@ -749,7 +748,8 @@
     <MESSAGE value="ex3 for class 8&#10;" />
     <MESSAGE value="correction ex3&#10;" />
     <MESSAGE value="exercise4 upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise4 upload" />
+    <MESSAGE value="correction ex4" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction ex4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1112,8 +1112,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/exercise3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="18" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -1122,8 +1122,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/exercise4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
