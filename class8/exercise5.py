@@ -12,6 +12,7 @@ def show_ver(a_device):
     print a_device
     print '#' * 80
     print remote_conn.send_command_expect("show ver")
+    #print remote_conn.send_command("show ver") <== This was tried and worked well but method above was recommended
     print '#' * 80
 
 def main():
