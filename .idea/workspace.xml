@@ -36,8 +36,8 @@
       <file leaf-file-name="exercise5.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class8/exercise5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="105" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
+            <state relative-caret-position="425">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               <folding>
                 <element signature="e#23#57#0" expanded="true" />
               </folding>
@@ -378,13 +378,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
     </task>
-    <task id="LOCAL-00045" summary="formatting columns">
-      <created>1477115737811</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1477115737812</updated>
-    </task>
     <task id="LOCAL-00046" summary="formatting columns">
       <created>1477115742451</created>
       <option name="number" value="00046" />
@@ -721,7 +714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478992185764</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="correct ex5 device parameters incorrect">
+      <created>1478992296769</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1478992296769</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -777,7 +777,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="inserted missing quote ex5" />
     <MESSAGE value="initial upload ex1 class7" />
     <MESSAGE value="fixed ex1_c7" />
     <MESSAGE value="fixed line 19" />
@@ -802,7 +801,8 @@
     <MESSAGE value="final ex4" />
     <MESSAGE value="initial upload of ex5" />
     <MESSAGE value="correct ex5 missing colon" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct ex5 missing colon" />
+    <MESSAGE value="correct ex5 device parameters incorrect" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct ex5 device parameters incorrect" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1173,8 +1173,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/exercise5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="105" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
+        <state relative-caret-position="425">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding>
             <element signature="e#23#57#0" expanded="true" />
           </folding>
