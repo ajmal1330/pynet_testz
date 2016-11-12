@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1efa4dbf-92b6-4e86-9699-2a7ae59d386d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class8/exercise5.py" afterPath="$PROJECT_DIR$/class8/exercise5.py" />
     </list>
     <ignored path="pynet_testz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -378,13 +377,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
     </task>
-    <task id="LOCAL-00047" summary="finalizing assignment 1 in class 7">
-      <created>1477116628344</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1477116628344</updated>
-    </task>
     <task id="LOCAL-00048" summary="finalizing assignment 1 in class 7">
       <created>1477116699907</created>
       <option name="number" value="00048" />
@@ -721,7 +713,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478992797767</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="ex5 change method to remote_conn.send_command_expect">
+      <created>1478993450154</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1478993450154</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -777,7 +776,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed ex1_c7" />
     <MESSAGE value="fixed line 19" />
     <MESSAGE value="formatting print function" />
     <MESSAGE value="fixing outoctets" />
@@ -802,7 +800,8 @@
     <MESSAGE value="correct ex5 missing colon" />
     <MESSAGE value="correct ex5 device parameters incorrect" />
     <MESSAGE value="ex5 formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex5 formatting" />
+    <MESSAGE value="ex5 change method to remote_conn.send_command_expect" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex5 change method to remote_conn.send_command_expect" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
