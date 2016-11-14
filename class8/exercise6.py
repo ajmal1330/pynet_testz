@@ -5,6 +5,8 @@ Instructions:
 Use threads and Netmiko to execute 'show version' on each device in the database. Calculate
 the amount of time required to do this. What is the difference in time between executing
 'show version' sequentially versus using threads?
+-Results...Elapsed time:  0:00:08.677010
+-pylint score of 8.15/10
 '''
 
 
