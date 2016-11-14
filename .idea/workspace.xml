@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1efa4dbf-92b6-4e86-9699-2a7ae59d386d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class8/exercise6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class8/exercise7.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class8/exercise5.py" afterPath="$PROJECT_DIR$/class8/exercise5.py" />
     </list>
     <ignored path="pynet_testz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercise6.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="exercise6.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class8/exercise6.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -59,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercise7.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exercise7.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class8/exercise7.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -365,13 +362,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00050" summary="finalizing assignment 1 in class 7">
-      <created>1477116796272</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1477116796272</updated>
     </task>
     <task id="LOCAL-00051" summary="finalizing assignment 1 in class 7">
       <created>1477116816566</created>
@@ -709,7 +699,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478993724016</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="exercise 6 and 7 initial upload">
+      <created>1479114150137</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1479114150138</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -765,7 +762,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed line 19" />
     <MESSAGE value="formatting print function" />
     <MESSAGE value="fixing outoctets" />
     <MESSAGE value="formatting columns" />
@@ -790,7 +786,8 @@
     <MESSAGE value="correct ex5 device parameters incorrect" />
     <MESSAGE value="ex5 formatting" />
     <MESSAGE value="ex5 change method to remote_conn.send_command_expect" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex5 change method to remote_conn.send_command_expect" />
+    <MESSAGE value="exercise 6 and 7 initial upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise 6 and 7 initial upload" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1144,22 +1141,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class8/exercise6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <element signature="e#277#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class8/exercise7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#289#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class8/exercise6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="e#277#311#0" expanded="true" />
           </folding>
         </state>
       </provider>
