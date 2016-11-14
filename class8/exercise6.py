@@ -7,12 +7,12 @@ of time required to do this. What is the difference in time between executing 's
 versus using threads?
 '''
 
-from netmiko import ConnectHandler
+
 from datetime import datetime
 from net_system.models import NetworkDevice, Credentials
 import django
 import threading
-from time import datetime
+from netmiko import ConnectHandler
 
 #function connects to device using ORM and retrieves output from a "show version" command
 def show_ver(a_device):
