@@ -10,7 +10,7 @@ the amount of time required to do this. What is the difference in time between e
 
 from datetime import datetime
 import threading
-from net_system.models import NetworkDevice, Credentials
+from net_system.models import NetworkDevice
 import django
 from netmiko import ConnectHandler
 

@@ -49,11 +49,9 @@
       <file leaf-file-name="exercise6.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class8/exercise6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-              <folding>
-                <element signature="e#278#307#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,11 +59,9 @@
       <file leaf-file-name="exercise7.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class8/exercise7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-              <folding>
-                <element signature="e#289#318#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,8 +123,8 @@
         <option value="$PROJECT_DIR$/class8/exercise3.py" />
         <option value="$PROJECT_DIR$/class8/exercise4.py" />
         <option value="$PROJECT_DIR$/class8/exercise5.py" />
-        <option value="$PROJECT_DIR$/class8/exercise6.py" />
         <option value="$PROJECT_DIR$/class8/exercise7.py" />
+        <option value="$PROJECT_DIR$/class8/exercise6.py" />
       </list>
     </option>
   </component>
@@ -364,13 +360,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00064" summary="testing parser">
-      <created>1477160950879</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1477160950879</updated>
     </task>
     <task id="LOCAL-00065" summary="testing parser">
       <created>1477161081058</created>
@@ -708,7 +697,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479116308591</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="correcting format of ex6 ip_address line 21">
+      <created>1479116561321</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1479116561321</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -764,7 +760,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testing parser" />
     <MESSAGE value="remove seccond function" />
     <MESSAGE value="backing up ex2" />
     <MESSAGE value="first run with ex2 c7" />
@@ -789,7 +784,8 @@
     <MESSAGE value="correcting import order ex6" />
     <MESSAGE value="correcting doc-string convention&#10;" />
     <MESSAGE value="correcting format of ex7" />
-    <option name="LAST_COMMIT_MESSAGE" value="correcting format of ex7" />
+    <MESSAGE value="correcting format of ex6 ip_address line 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="correcting format of ex6 ip_address line 21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1145,21 +1141,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/exercise7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-          <folding>
-            <element signature="e#289#318#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/exercise6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-          <folding>
-            <element signature="e#278#307#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
