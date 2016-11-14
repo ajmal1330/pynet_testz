@@ -14,8 +14,8 @@ from net_system.models import NetworkDevice, Credentials
 import django
 from netmiko import ConnectHandler
 
-#function connects to device using ORM and retrieves output from a "show version" command
 def show_ver(a_device):
+    # function connects to device using ORM and retrieves output from a "show version" command
     creds = a_device.credentials
     remote_conn = ConnectHandler(device_type=a_device.device_type,
                                  ip=a_device.ip,
@@ -29,8 +29,8 @@ def show_ver(a_device):
     print '#' * 80
 
 
-#uses threads to retrieve "show version" output from all devices in ORM
 def main():
+    # uses threads to retrieve "show version" output from all devices in ORM
     django.setup()
     start_time = datetime.now()
     devices = NetworkDevice.objects.all()
