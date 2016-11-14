@@ -8,9 +8,9 @@ between executing 'show version' sequentially versus using threads?
 '''
 
 from datetime import datetime
+from multiprocessing import Process, current_process
 from net_system.models import NetworkDevice, Credentials
 import django
-from multiprocessing import Process, current_process
 from netmiko import ConnectHandler
 
 
