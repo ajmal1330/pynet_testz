@@ -1,5 +1,13 @@
 #!/usr/bin/env python
 
+'''
+Instructions:
+Use Netmiko to connect to each of the devices in the database. Execute 'show version' on each device.
+Calculate the amount of time required to do this. Note, your results will be more reliable if you use
+Netmiko's send_command_expect() method. There is an issue with the Arista vEOS switches and Netmiko's
+send_command() method.
+'''
+
 from netmiko import ConnectHandler
 from datetime import datetime
 from net_system.models import NetworkDevice, Credentials
@@ -11,7 +19,7 @@ def show_ver(a_device):
                                  username=creds.username, port=a_device.port, secret='')
     print a_device
     print '#' * 80
-    print remote_conn.send_command_expect("show ver")
+    print remote_conn.send_command_expect('show ver')
     #print remote_conn.send_command("show ver") <== This was tried and worked well but method above was recommended
     print '#' * 80
 
