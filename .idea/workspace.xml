@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1efa4dbf-92b6-4e86-9699-2a7ae59d386d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class8/exercise6.py" afterPath="$PROJECT_DIR$/class8/exercise6.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class8/exercise7.py" afterPath="$PROJECT_DIR$/class8/exercise7.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class8/exercise5.py" afterPath="$PROJECT_DIR$/class8/exercise5.py" />
     </list>
     <ignored path="pynet_testz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercise5.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="exercise5.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class8/exercise5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            <state relative-caret-position="391">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding>
                 <element signature="e#375#409#0" expanded="true" />
               </folding>
@@ -46,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercise6.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exercise6.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class8/exercise6.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -126,16 +125,16 @@
         <option value="$PROJECT_DIR$/class8/exercise2" />
         <option value="$PROJECT_DIR$/class8/exercise3.py" />
         <option value="$PROJECT_DIR$/class8/exercise4.py" />
-        <option value="$PROJECT_DIR$/class8/exercise5.py" />
         <option value="$PROJECT_DIR$/class8/exercise7.py" />
         <option value="$PROJECT_DIR$/class8/exercise6.py" />
+        <option value="$PROJECT_DIR$/class8/exercise5.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="31" />
     <option name="y" value="74" />
-    <option name="width" value="1258" />
+    <option name="width" value="1895" />
     <option name="height" value="1499" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -364,13 +363,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00067" summary="testing parser">
-      <created>1477161861129</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1477161861129</updated>
     </task>
     <task id="LOCAL-00068" summary="testing parser">
       <created>1477161903888</created>
@@ -708,14 +700,21 @@
       <option name="project" value="LOCAL" />
       <updated>1479117286473</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="adding results and pylint scores">
+      <created>1479117684098</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1479117684098</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="31" y="74" width="1258" height="1499" extended-state="0" />
+    <frame x="31" y="74" width="1895" height="1499" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20933977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13837147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869786" sideWeight="0.5061627" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23038156" sideWeight="0.4938373" order="7" side_tool="false" content_ui="tabs" />
@@ -764,7 +763,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="backing up ex2" />
     <MESSAGE value="first run with ex2 c7" />
     <MESSAGE value="second run with ex2 c7" />
     <MESSAGE value="third run with ex2 c7" />
@@ -789,7 +787,8 @@
     <MESSAGE value="correcting format of ex7" />
     <MESSAGE value="correcting format of ex6 ip_address line 21" />
     <MESSAGE value="removing Credentials from import" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing Credentials from import" />
+    <MESSAGE value="adding results and pylint scores" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding results and pylint scores" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1133,16 +1132,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class8/exercise5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding>
-            <element signature="e#375#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class8/exercise7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1159,6 +1148,16 @@
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="e#344#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class8/exercise5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#375#409#0" expanded="true" />
           </folding>
         </state>
       </provider>
