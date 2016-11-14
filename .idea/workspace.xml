@@ -36,11 +36,9 @@
       <file leaf-file-name="exercise5.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class8/exercise5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding>
-                <element signature="e#375#409#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -363,13 +361,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00068" summary="testing parser">
-      <created>1477161903888</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1477161903888</updated>
     </task>
     <task id="LOCAL-00069" summary="testing parser">
       <created>1477161932746</created>
@@ -707,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479117684098</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="correcting format on ex5">
+      <created>1479117995191</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1479117995191</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -763,7 +761,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first run with ex2 c7" />
     <MESSAGE value="second run with ex2 c7" />
     <MESSAGE value="third run with ex2 c7" />
     <MESSAGE value="final ex2 c7" />
@@ -788,7 +785,8 @@
     <MESSAGE value="correcting format of ex6 ip_address line 21" />
     <MESSAGE value="removing Credentials from import" />
     <MESSAGE value="adding results and pylint scores" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding results and pylint scores" />
+    <MESSAGE value="correcting format on ex5" />
+    <option name="LAST_COMMIT_MESSAGE" value="correcting format on ex5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1154,11 +1152,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/exercise5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="e#375#409#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
