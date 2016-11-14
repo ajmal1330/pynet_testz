@@ -18,7 +18,7 @@ def show_ver(a_device):
     '''function connects to device using ORM and retrieves output from a "show version" command'''
     creds = a_device.credentials
     remote_conn = ConnectHandler(device_type=a_device.device_type,
-                                 ip=a_device.ip,
+                                 ip=a_device.ip_address,
                                  password=creds.password,
                                  username=creds.username,
                                  port=a_device.port,
