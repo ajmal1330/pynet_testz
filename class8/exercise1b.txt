@@ -1,0 +1,23 @@
+(applied_python)[eaboytes@ip-172-30-0-5 djproject]$ python manage.py shell
+Python 2.7.12 (default, Sep  1 2016, 22:14:00)
+[GCC 4.8.3 20140911 (Red Hat 4.8.3-9)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from net_system.models import NetworkDevice
+>>> from net_system.models import NetworkDevice, Credentials
+>>> NetworkDevice.objects.all
+<bound method Manager.all of <django.db.models.manager.Manager object at 0x7fa5ed3b6390>>
+>>> devices=NetworkDevice.objects.all()
+>>> from net_system.models import NetworkDevice,Credentials
+>>> net_devices = NetworkDevice.objects.all()
+>>> creds = Credentials.objects.all()
+>>>
+for a_device in net_devices:
+  if 'arista' in a_device.device_type:
+    a_device.credentials = arista_creds
+  else:
+    a_device.credentials = std_creds
+  a_device.save()
+
+for a_device in net_devices:
+  print a_device, a_device.credentials
