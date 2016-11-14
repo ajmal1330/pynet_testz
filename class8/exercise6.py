@@ -9,9 +9,9 @@ versus using threads?
 
 
 from datetime import datetime
+import threading
 from net_system.models import NetworkDevice, Credentials
 import django
-import threading
 from netmiko import ConnectHandler
 
 #function connects to device using ORM and retrieves output from a "show version" command
