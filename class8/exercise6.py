@@ -12,13 +12,17 @@ from datetime import datetime
 from net_system.models import NetworkDevice, Credentials
 import django
 import threading
-import time
+from time import datetime
 
 
 def show_ver(a_device):
     creds = a_device.credentials
-    remote_conn = ConnectHandler(device_type=a_device.device_type, ip=a_device.ip, password=a_device.password,
-                                 username=a_device.username, port=a_device.port, secret='')
+    remote_conn = ConnectHandler(device_type = a_device.device_type,
+                                 ip = a_device.ip,
+                                 password = creds.password,
+                                 username = creds.username,
+                                 port = a_device.port,
+                                 secret = '')
     print
     print '#' * 80
     print remote_conn.send_command_expect("show ver")
