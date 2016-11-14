@@ -6,6 +6,8 @@ Use Netmiko to connect to each of the devices in the database. Execute 'show ver
 device. Calculate the amount of time required to do this. Note, your results will be more reliable
 if you use Netmiko's send_command_expect() method. There is an issue with the Arista vEOS switches
 and Netmiko's send_command() method.
+Result: Elapsed time: 0:00:41.334053
+-pylint score 7.62/10
 '''
 
 from datetime import datetime
