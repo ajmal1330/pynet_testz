@@ -14,21 +14,22 @@ import django
 import threading
 from time import datetime
 
-
+#function connects to device using ORM and retrieves output from a "show version" command
 def show_ver(a_device):
     creds = a_device.credentials
-    remote_conn = ConnectHandler(device_type = a_device.device_type,
-                                 ip = a_device.ip,
-                                 password = creds.password,
-                                 username = creds.username,
-                                 port = a_device.port,
-                                 secret = '')
+    remote_conn = ConnectHandler(device_type=a_device.device_type,
+                                 ip=a_device.ip,
+                                 password=creds.password,
+                                 username=creds.username,
+                                 port=a_device.port,
+                                 secret='')
     print
     print '#' * 80
     print remote_conn.send_command_expect("show ver")
     print '#' * 80
 
 
+#uses threads to retrieve "show version" output from all devices in ORM
 def main():
     django.setup()
     start_time = datetime.now()
