@@ -15,10 +15,12 @@ from net_system.models import NetworkDevice
 import django
 from netmiko import ConnectHandler
 
+l=multiprocessing.Lock
 
 def show_ver(a_device):
     '''function connects to device using ORM and retrieves output from a "show version" command'''
     creds = a_device.credentials
+    l.acquire()
     remote_conn = ConnectHandler(device_type=a_device.device_type,
                                  ip=a_device.ip_address,
                                  password=creds.password,
@@ -29,13 +31,13 @@ def show_ver(a_device):
     print '#' * 80
     print remote_conn.send_command_expect('show ver')
     print '#' * 80
+    l.release()
 
 def main():
     '''uses processes to retrieve "show version" output from all devices in ORM'''
     django.setup()
     start_time = datetime.now()
     devices = NetworkDevice.objects.all()
-    lock = Lock()
 
     procs = []
     for a_device in devices:

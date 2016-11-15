@@ -80,8 +80,8 @@
       <file leaf-file-name="exercise7.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class8/exercise7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+            <state relative-caret-position="663">
+              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
               <folding>
                 <element signature="e#353#382#0" expanded="true" />
               </folding>
@@ -154,8 +154,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="654" />
-    <option name="y" value="85" />
+    <option name="x" value="233" />
+    <option name="y" value="89" />
     <option name="width" value="1895" />
     <option name="height" value="1499" />
   </component>
@@ -385,13 +385,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00077" summary="remove seccond function">
-      <created>1477188409367</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1477188409367</updated>
     </task>
     <task id="LOCAL-00078" summary="backing up ex2">
       <created>1477260208658</created>
@@ -729,11 +722,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479119132382</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="update ex7 to deal with bug. trying lock first">
+      <created>1479195615333</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1479195615333</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="654" y="85" width="1895" height="1499" extended-state="0" />
+    <frame x="233" y="89" width="1895" height="1499" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13837147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -785,7 +785,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done" />
     <MESSAGE value="week 8 exercises initial upload" />
     <MESSAGE value="ex3 for class 8&#10;" />
     <MESSAGE value="correction ex3&#10;" />
@@ -810,7 +809,8 @@
     <MESSAGE value="results ex5" />
     <MESSAGE value="ex1b and 2" />
     <MESSAGE value="done.txt added" />
-    <option name="LAST_COMMIT_MESSAGE" value="done.txt added" />
+    <MESSAGE value="update ex7 to deal with bug. trying lock first" />
+    <option name="LAST_COMMIT_MESSAGE" value="update ex7 to deal with bug. trying lock first" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1178,8 +1178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/exercise7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        <state relative-caret-position="663">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
           <folding>
             <element signature="e#353#382#0" expanded="true" />
           </folding>
