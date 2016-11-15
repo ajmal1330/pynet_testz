@@ -30,7 +30,7 @@ def show_ver(a_device, queue):
     output = remote_conn.send_command_expect('show ver')
     #print '#' * 80
     queue.put(output)
-
+    print output
 
 def main():
     '''uses processes to retrieve "show version" output from all devices in ORM'''

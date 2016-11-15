@@ -80,8 +80,8 @@
       <file leaf-file-name="exercise7.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class8/exercise7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="544">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding>
                 <element signature="e#353#382#0" expanded="true" />
               </folding>
@@ -385,13 +385,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00081" summary="third run with ex2 c7">
-      <created>1477262971350</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1477262971350</updated>
     </task>
     <task id="LOCAL-00082" summary="final ex2 c7">
       <created>1477263511597</created>
@@ -729,7 +722,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479196767002</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="adding queueing to ex7">
+      <created>1479204217180</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1479204217180</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -785,7 +785,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="week 8 exercises initial upload" />
     <MESSAGE value="ex3 for class 8&#10;" />
     <MESSAGE value="correction ex3&#10;" />
     <MESSAGE value="exercise4 upload" />
@@ -810,7 +809,8 @@
     <MESSAGE value="ex1b and 2" />
     <MESSAGE value="done.txt added" />
     <MESSAGE value="update ex7 to deal with bug. trying lock first" />
-    <option name="LAST_COMMIT_MESSAGE" value="update ex7 to deal with bug. trying lock first" />
+    <MESSAGE value="adding queueing to ex7" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding queueing to ex7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1178,8 +1178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/exercise7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="544">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <element signature="e#353#382#0" expanded="true" />
           </folding>
