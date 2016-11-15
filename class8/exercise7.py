@@ -10,7 +10,7 @@ between executing 'show version' sequentially versus using threads?
 '''
 
 from datetime import datetime
-from multiprocessing import Process
+from multiprocessing import Process, Lock
 from net_system.models import NetworkDevice
 import django
 from netmiko import ConnectHandler
@@ -35,6 +35,7 @@ def main():
     django.setup()
     start_time = datetime.now()
     devices = NetworkDevice.objects.all()
+    lock = Lock()
 
     procs = []
     for a_device in devices:
