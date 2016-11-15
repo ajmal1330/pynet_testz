@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1efa4dbf-92b6-4e86-9699-2a7ae59d386d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class8/exercise7.py" afterPath="$PROJECT_DIR$/class8/exercise7.py" />
     </list>
     <ignored path="pynet_testz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -386,13 +385,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
     </task>
-    <task id="LOCAL-00079" summary="first run with ex2 c7">
-      <created>1477262518519</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1477262518519</updated>
-    </task>
     <task id="LOCAL-00080" summary="second run with ex2 c7">
       <created>1477262773929</created>
       <option name="number" value="00080" />
@@ -729,7 +721,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479196522383</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="update ex7 to deal with bug. trying lock first">
+      <created>1479196762823</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1479196762823</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="ToolWindowManager">
