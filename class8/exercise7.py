@@ -10,28 +10,27 @@ between executing 'show version' sequentially versus using threads?
 '''
 
 from datetime import datetime
-from multiprocessing import Process, Lock
+from multiprocessing import Process, Queue
 from net_system.models import NetworkDevice
 import django
 from netmiko import ConnectHandler
 
 
-
-def show_ver(a_device):
+def show_ver(a_device, queue):
     '''function connects to device using ORM and retrieves output from a "show version" command'''
     creds = a_device.credentials
-    Lock.acquire()
     remote_conn = ConnectHandler(device_type=a_device.device_type,
                                  ip=a_device.ip_address,
                                  password=creds.password,
                                  username=creds.username,
                                  port=a_device.port,
                                  secret='')
-    print
-    print '#' * 80
-    print remote_conn.send_command_expect('show ver')
-    print '#' * 80
-    Lock.release()
+    #print
+    #print '#' * 80
+    output = remote_conn.send_command_expect('show ver')
+    #print '#' * 80
+    queue.put(output)
+
 
 def main():
     '''uses processes to retrieve "show version" output from all devices in ORM'''
@@ -41,7 +40,8 @@ def main():
 
     procs = []
     for a_device in devices:
-        my_proc = Process(target=show_ver, args=(a_device,))
+        queue = Queue(maxsize=20)
+        my_proc = Process(target=show_ver, args=(a_device,queue))
         my_proc.start()
         procs.append(my_proc)
 
