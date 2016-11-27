@@ -1,4 +1,4 @@
-
+1
 
 def func2():
     print "Simple"
