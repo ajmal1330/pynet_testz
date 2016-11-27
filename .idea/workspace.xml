@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1efa4dbf-92b6-4e86-9699-2a7ae59d386d" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/class9/exercise2/__init__.py" afterPath="$PROJECT_DIR$/class9/exercise2/mytest/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/class9/exercise2/simple.py" afterPath="$PROJECT_DIR$/class9/exercise2/mytest/simple.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/class9/exercise2/whatever.py" afterPath="$PROJECT_DIR$/class9/exercise2/mytest/whatever.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/class9/exercise2/world.py" afterPath="$PROJECT_DIR$/class9/exercise2/mytest/world.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pynet_testz.iws" />
@@ -452,13 +448,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
     </task>
-    <task id="LOCAL-00089" summary="correction ex4">
-      <created>1478981473990</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1478981473990</updated>
-    </task>
     <task id="LOCAL-00090" summary="correction ex4">
       <created>1478981793591</created>
       <option name="number" value="00090" />
@@ -795,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480271389498</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="class 9">
+      <created>1480271524580</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1480271524580</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="ToolWindowManager">
