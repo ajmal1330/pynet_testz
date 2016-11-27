@@ -20,6 +20,6 @@ if __name__ == "__main__":
 
     obj=MyStuff('10.1.1.1', 'eaboytes', '2')
     output = obj.user_same()
-    print output
+    #print output
     output = obj.user_diff()
-    print output
+    #print output

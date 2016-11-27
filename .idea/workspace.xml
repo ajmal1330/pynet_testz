@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1efa4dbf-92b6-4e86-9699-2a7ae59d386d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class9/exercise3/test_loading.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class9/exercise4/mytest/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class9/exercise4/mytest/simple.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class9/exercise4/mytest/whatever.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class9/exercise4/mytest/world.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class9/exercise4/mytest/world.py" afterPath="$PROJECT_DIR$/class9/exercise4/mytest/world.py" />
     </list>
     <ignored path="pynet_testz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +26,8 @@
       <file leaf-file-name="world.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class9/exercise4/mytest/world.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="374">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -393,13 +389,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
     </task>
-    <task id="LOCAL-00097" summary="ex5 change method to remote_conn.send_command_expect">
-      <created>1478993456769</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1478993456769</updated>
-    </task>
     <task id="LOCAL-00098" summary="ex5 change method to remote_conn.send_command_expect">
       <created>1478993724016</created>
       <option name="number" value="00098" />
@@ -736,7 +725,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480274896461</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="class 9">
+      <created>1480281757477</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1480281757477</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1196,8 +1192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class9/exercise4/mytest/world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="374">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>
