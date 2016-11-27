@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1efa4dbf-92b6-4e86-9699-2a7ae59d386d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class9/exercise7/path_mod.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class9/exercise7/mytest/__init__.py" afterPath="$PROJECT_DIR$/class9/exercise7/mytest/__init__.py" />
     </list>
     <ignored path="pynet_testz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,19 +43,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class9/exercise7/mytest/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="path_mod.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="path_mod.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class9/exercise7/path_mod.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
@@ -129,6 +127,7 @@
         <option value="$PROJECT_DIR$/class9/exercise4/mytest/world.py" />
         <option value="$PROJECT_DIR$/class9/exercise5/mytest/world.py" />
         <option value="$PROJECT_DIR$/class9/exercise7/path_mod.txt" />
+        <option value="$PROJECT_DIR$/class9/exercise7/mytest/__init__.py" />
       </list>
     </option>
   </component>
@@ -446,13 +445,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00109" summary="correcting doc-string convention&#10;">
-      <created>1479115678239</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1479115678240</updated>
     </task>
     <task id="LOCAL-00110" summary="correcting format of ex7">
       <created>1479116085734</created>
@@ -790,14 +782,21 @@
       <option name="project" value="LOCAL" />
       <updated>1480286227725</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="class 9 ex7&#10;">
+      <created>1480287034610</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1480287034610</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="334" y="23" width="1217" height="1499" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21648626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21648626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23038156" sideWeight="0.50957537" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23038156" sideWeight="0.49042463" order="7" side_tool="false" content_ui="tabs" />
@@ -1241,20 +1240,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class9/exercise7/mytest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class9/exercise7/path_mod.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class9/exercise7/mytest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
           <folding />
         </state>
       </provider>
