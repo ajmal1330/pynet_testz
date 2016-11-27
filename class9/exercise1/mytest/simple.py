@@ -2,5 +2,5 @@
 
 def func2():
     print "Simple"
-if __name__ == "__func2__":
-    func2()
+if __name__ == "__main__":
+    print "Main program - Simple"
