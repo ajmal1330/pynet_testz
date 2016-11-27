@@ -15,6 +15,6 @@ def main():
     obj=MyClass('10.4.4.4', 'lastuser', '4044')
     obj.hello()
     obj.not_hello()
-if __name=='__main__':
+if __name__=='__main__':
     main()
 
