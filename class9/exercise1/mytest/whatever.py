@@ -1,4 +1,4 @@
 def func2():
     print "Whatever"
 if __name__ == "__main__":
-    func2()
+    print 'This is the main program of whatever.py'
