@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1efa4dbf-92b6-4e86-9699-2a7ae59d386d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class9/exercise8/mytest/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class9/exercise8/mytest/simple.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class9/exercise8/mytest/whatever.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class9/exercise8/mytest/world.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class9/exercise7/mytest/__init__.py" afterPath="$PROJECT_DIR$/class9/exercise7/mytest/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class9/exercise8/mytest/__init__.py" afterPath="$PROJECT_DIR$/class9/exercise8/mytest/__init__.py" />
     </list>
     <ignored path="pynet_testz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/class9/exercise8/mytest/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -196,46 +192,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pynet_testz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pynet_testz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pynet_testz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="class9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercise8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mytest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pynet_testz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pynet_testz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="class9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercise7" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,13 +398,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00111" summary="correcting format of ex7">
-      <created>1479116177788</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1479116177788</updated>
     </task>
     <task id="LOCAL-00112" summary="correcting format of ex7">
       <created>1479116308591</created>
@@ -786,7 +735,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480287186082</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="class 9 ex8&#10;">
+      <created>1480287305757</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1480287305757</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -842,7 +798,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="final ex4" />
     <MESSAGE value="initial upload of ex5" />
     <MESSAGE value="correct ex5 missing colon" />
     <MESSAGE value="correct ex5 device parameters incorrect" />
@@ -867,7 +822,8 @@
     <MESSAGE value="class 9" />
     <MESSAGE value="class 9 childclass&#10;" />
     <MESSAGE value="class 9 ex7&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="class 9 ex7&#10;" />
+    <MESSAGE value="class 9 ex8&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="class 9 ex8&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1251,7 +1207,7 @@
     <entry file="file://$PROJECT_DIR$/class9/exercise8/mytest/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
