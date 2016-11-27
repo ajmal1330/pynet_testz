@@ -12,21 +12,25 @@ def func1():
 
 class MyClass(object):
 
-    def __init__(self, ip, username, version):
+    def __init__(self, ip, username, port):
         self.ip = ip
         self.username = username
-        self.version = version
+        self.port = port
 
     def hello(self):
-        print 'telnet -l {} {}'.format(self.username, self.ip)
+        print 'telnet -l {} {}'.format(self.username, self.ip, self.port)
 
     def not_hello(self):
-        print 'ssh -l {} -v{} {}'.format(self.username, self.version, self.ip)
+        print 'ssh -l {} {}:{}'.format(self.username, self.ip, self.port)
+
+class MyChildClass(MyClass):
+    def hello(self):
+        print 'scp -P {} {}@{}:myconfig.txt'.format(self.port, self.username, self.ip)
 
 if __name__ == "__main__":
     print "This is the main program of world.py"
 
-    obj=MyClass('10.1.1.1', 'eaboytes', '2')
+    obj=MyClass('10.1.1.1', 'eaboytes', '2022')
     obj.hello()
     obj.not_hello()
 
