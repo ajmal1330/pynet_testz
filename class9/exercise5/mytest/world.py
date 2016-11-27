@@ -34,11 +34,11 @@ if __name__ == "__main__":
     obj=MyClass('10.1.1.1', 'eaboytes', '2022')
     obj.hello()
     obj.not_hello()
-    print * 40 '#'
+    print '#' * 40
 
     print "MyChildClass"
     child_obj=MyChildClass('10.2.2.2', 'otheruser', '3033')
     child_obj.hello()
     child_obj.not_hello()
-    print * 40 '#'
+    print '#' * 40
 
