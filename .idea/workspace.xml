@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1efa4dbf-92b6-4e86-9699-2a7ae59d386d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class9/exercise2/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class9/exercise2/simple.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class9/exercise2/whatever.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class9/exercise2/world.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class9/exercise2/__init__.py" afterPath="$PROJECT_DIR$/class9/exercise2/mytest/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class9/exercise2/simple.py" afterPath="$PROJECT_DIR$/class9/exercise2/mytest/simple.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class9/exercise2/whatever.py" afterPath="$PROJECT_DIR$/class9/exercise2/mytest/whatever.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class9/exercise2/world.py" afterPath="$PROJECT_DIR$/class9/exercise2/mytest/world.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pynet_testz.iws" />
@@ -90,21 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="whatever.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="whatever.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class9/exercise1/mytest/whatever.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/class9/exercise2/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -244,6 +234,10 @@
               <option name="myItemId" value="exercise2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -302,6 +296,7 @@
       <recent name="C:\Users\Earl\Documents\GitHub\pynet_testz\class6\exercise2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Earl\Documents\GitHub\pynet_testz\class9\exercise2\mytest" />
       <recent name="C:\Users\Earl\Documents\GitHub\pynet_testz\class9\exercise1" />
       <recent name="C:\Users\Earl\Documents\GitHub\pynet_testz\class6\exercise1" />
       <recent name="C:\Users\Earl\Documents\GitHub\pynet_testz\class6\exercise1\configs" />
@@ -456,13 +451,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
-    </task>
-    <task id="LOCAL-00088" summary="exercise4 upload">
-      <created>1478981311901</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1478981311901</updated>
     </task>
     <task id="LOCAL-00089" summary="correction ex4">
       <created>1478981473990</created>
@@ -800,7 +788,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480269114781</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="class 9">
+      <created>1480271389498</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1480271389498</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1240,18 +1235,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class9/exercise1/mytest/whatever.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class9/exercise2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class9/exercise1/mytest/whatever.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
           <folding />
         </state>
       </provider>
