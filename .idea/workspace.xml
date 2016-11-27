@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/class9/exercise4/mytest/world.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -389,13 +389,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
     </task>
-    <task id="LOCAL-00098" summary="ex5 change method to remote_conn.send_command_expect">
-      <created>1478993724016</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1478993724016</updated>
-    </task>
     <task id="LOCAL-00099" summary="exercise 6 and 7 initial upload">
       <created>1479114150137</created>
       <option name="number" value="00099" />
@@ -732,7 +725,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480281757477</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="class 9">
+      <created>1480281836262</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1480281836262</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1193,7 +1193,7 @@
     <entry file="file://$PROJECT_DIR$/class9/exercise4/mytest/world.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding />
         </state>
       </provider>

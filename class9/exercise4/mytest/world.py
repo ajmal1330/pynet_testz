@@ -13,13 +13,12 @@ class MyStuff(object):
         print 'ssh {}'.format(self.ip)
 
     def user_diff(self):
-        print 'ssh -l {} v{} {}'.format(self.username, self.version, self.ip)
+        print 'ssh -l {} -v{} {}'.format(self.username, self.version, self.ip)
 
 if __name__ == "__main__":
     print "This is the main program of world.py"
 
     obj=MyStuff('10.1.1.1', 'eaboytes', '2')
-    output = obj.user_same()
-    #print output
-    output = obj.user_diff()
-    #print output
+    obj.user_same()
+    obj.user_diff()
+
