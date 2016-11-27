@@ -1,0 +1,13 @@
+(applied_python)[eaboytes@ip-172-30-0-5 exercise2]$ python
+Python 2.7.12 (default, Sep  1 2016, 22:14:00)
+[GCC 4.8.3 20140911 (Red Hat 4.8.3-9)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from mytest import *
+>>> func1()
+World
+>>> func2()
+Simple
+>>> func3()
+Whatever
+>>>
+>>>
