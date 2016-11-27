@@ -1,0 +1,40 @@
+(applied_python)[eaboytes@ip-172-30-0-5 mytest]$ env | grep PYTHON
+PYTHONPATH=/home/eaboytes/DJANGOX/djproject/
+(applied_python)[eaboytes@ip-172-30-0-5 mytest]$ pwd
+/home/eaboytes/pynet_testz/class9/exercise5/mytest
+(applied_python)[eaboytes@ip-172-30-0-5 mytest]$ export PYTHONPATH=/home/eaboytes/DJANGOX/djproject:/home/eaboytes/pynet_testz/class9/exercise7/
+(applied_python)[eaboytes@ip-172-30-0-5 mytest]$ python
+Python 2.7.12 (default, Sep  1 2016, 22:14:00)
+[GCC 4.8.3 20140911 (Red Hat 4.8.3-9)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import sys
+>>> print(sys.path)
+['', '/home/eaboytes/DJANGOX/djproject', '/home/eaboytes/pynet_testz/class9/exercise7', '/home/eaboytes/applied_python/local/lib64/python2.7/site-packages', '/home/eaboytes/applied_python/local/lib/python2.7/site-packages', '/home/eaboytes/applied_python/lib64/python2.7', '/home/eaboytes/applied_python/lib/python2.7', '/home/eaboytes/applied_python/lib64/python2.7/site-packages', '/home/eaboytes/applied_python/lib/python2.7/site-packages', '/home/eaboytes/applied_python/lib64/python2.7/lib-dynload', '/usr/lib64/python2.7', '/usr/lib/python2.7']
+>>> from pprint import pprint
+>>> pprint(sys.path)
+['',
+ '/home/eaboytes/DJANGOX/djproject',
+ '/home/eaboytes/pynet_testz/class9/exercise7',
+ '/home/eaboytes/applied_python/local/lib64/python2.7/site-packages',
+ '/home/eaboytes/applied_python/local/lib/python2.7/site-packages',
+ '/home/eaboytes/applied_python/lib64/python2.7',
+ '/home/eaboytes/applied_python/lib/python2.7',
+ '/home/eaboytes/applied_python/lib64/python2.7/site-packages',
+ '/home/eaboytes/applied_python/lib/python2.7/site-packages',
+ '/home/eaboytes/applied_python/lib64/python2.7/lib-dynload',
+ '/usr/lib64/python2.7',
+ '/usr/lib/python2.7']
+>>>
+(applied_python)[eaboytes@ip-172-30-0-5 pynet_testz]$ cd /var
+(applied_python)[eaboytes@ip-172-30-0-5 var]$ python
+Python 2.7.12 (default, Sep  1 2016, 22:14:00)
+[GCC 4.8.3 20140911 (Red Hat 4.8.3-9)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import mytest
+>>> func1()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'func1' is not defined
+>>> mytest.func1()
+World
+>>>
