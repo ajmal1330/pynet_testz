@@ -30,15 +30,15 @@ class MyChildClass(MyClass):
 if __name__ == "__main__":
     print "This is the main program of world.py"
 
-    print "MyClass"
     print '#' * 40
+    print "MyClass"
     obj=MyClass('10.1.1.1', 'eaboytes', '2022')
     obj.hello()
     obj.not_hello()
 
 
-    print "MyChildClass"
     print '#' * 40
+    print "MyChildClass"
     child_obj=MyChildClass('10.2.2.2', 'otheruser', '3033')
     child_obj.hello()
     child_obj.not_hello()
