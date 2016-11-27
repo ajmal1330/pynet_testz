@@ -5,11 +5,16 @@ Write a Python script in a different directory (not the one containing mytest).
     b. Create an object that uses MyClass. Verify that you call the hello() and not_hello() methods.
 '''
 from mytest import func1, func2, func3, MyClass
-func1()
-func2()
-func3()
 
-obj=MyClass('10.4.4.4', 'lastuser', '4044')
-obj.hello()
-obj.not_hello()
+def main():
+    '''Testing Function import'''
+    func1()
+    func2()
+    func3()
+
+    obj=MyClass('10.4.4.4', 'lastuser', '4044')
+    obj.hello()
+    obj.not_hello()
+if __name=='__main__':
+    main()
 
