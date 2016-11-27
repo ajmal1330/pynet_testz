@@ -9,7 +9,7 @@ func1()
 func2()
 func3()
 
-obj.Myclass('10.4.4.4', 'lastuser', '4044')
+obj=Myclass('10.4.4.4', 'lastuser', '4044')
 obj.hello()
 obj.not_hello()
 
