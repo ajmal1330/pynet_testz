@@ -50,8 +50,8 @@
       <file leaf-file-name="cl9ex9.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class9/exercise9/cl9ex9.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -460,13 +460,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475479935230</updated>
     </task>
-    <task id="LOCAL-00123" summary="ex1b and 2">
-      <created>1479119055152</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1479119055152</updated>
-    </task>
     <task id="LOCAL-00124" summary="ex1b and 2">
       <created>1479119062863</created>
       <option name="number" value="00124" />
@@ -803,7 +796,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480288659298</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="class 9 ex9&#10;">
+      <created>1480288827893</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1480288827893</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1271,8 +1271,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class9/exercise9/cl9ex9.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="255">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>

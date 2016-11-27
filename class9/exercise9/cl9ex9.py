@@ -13,6 +13,7 @@ def main():
     func3()
     print 'If you see World, Simple and Whatever on the 3 lines above this is successful'
 
+    print '#' * 40
     print 'Should see telnet and ssh commands below'
     obj=MyClass('10.4.4.4', 'lastuser', '4044')
     obj.hello()
