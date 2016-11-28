@@ -20,4 +20,3 @@ def main():
     obj.not_hello()
 if __name__ == '__main__':
     main()
-
