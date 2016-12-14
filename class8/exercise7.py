@@ -6,7 +6,7 @@ between executing 'show version' sequentially versus using threads?
 
 7. Repeat exercise #6 except use processes.
 -pylint score: 7.78/10
--Results...Elapsed time:  0:00:41.061918
+-Results Elapsed time:  0:00:09.063101
 '''
 
 from datetime import datetime
@@ -25,12 +25,11 @@ def show_ver(a_device, queue):
                                  username=creds.username,
                                  port=a_device.port,
                                  secret='')
-    #print
-    #print '#' * 80
     output = remote_conn.send_command_expect('show ver')
-    #print '#' * 80
     queue.put(output)
+    print '#' * 80
     print output
+    print '#' * 80
 
 def main():
     '''uses processes to retrieve "show version" output from all devices in ORM'''
@@ -41,7 +40,7 @@ def main():
     procs = []
     for a_device in devices:
         queue = Queue(maxsize=20)
-        my_proc = Process(target=show_ver, args=(a_device,queue))
+        my_proc = Process(target=show_ver, args=(a_device, queue))
         my_proc.start()
         procs.append(my_proc)
 
