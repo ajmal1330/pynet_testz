@@ -5,7 +5,7 @@ Calculate the amount of time required to do this. What is the difference in time
 between executing 'show version' sequentially versus using threads?
 
 7. Repeat exercise #6 except use processes.
--pylint score: 7.78/10
+-pylint score: 8.21/10
 -Results Elapsed time:  0:00:09.063101
 '''
 
