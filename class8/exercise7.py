@@ -45,9 +45,8 @@ def main():
         my_proc.start()
         procs.append(my_proc)
 
-        for a_proc in procs:
-            print a_proc
-            a_proc.join()
+    for a_proc in procs:
+        a_proc.join()
 
     print "\nElapsed time:  " + str(datetime.now() - start_time)
 if __name__ == "__main__":
